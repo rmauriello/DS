@@ -4,5 +4,10 @@ Learning D3 for data visualization
    - transposed grid
    - resized grid blocks
    - transitions (TBD)
- 
-   
+   - add some jitter to data (TBD)
+   - add dropdown menu to change color scheme (TBD)
+
+2) map.html is a modification of Mike Bostock's chloropeth example (http://bl.ocks.org/mbostock/4060606). It reads a tsv of unemployment by county and displays a heatmap.
+   - updated to use colorbrewer 
+   - added map projection
+   - replaced hard-coded scaling with dynamic (almost works) 
